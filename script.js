@@ -19,16 +19,9 @@ const calculator = {
 	},
 	sqt: function (a) {
 		let x = a / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
-		x = (x + a / x) / 2; x = (x + a / x) / 2;
+		for (let i = 0; i < 100; i++) {
+			x = (x + a / x) / 2;
+		}
 		return x;
 	}
 }
